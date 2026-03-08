@@ -4,6 +4,19 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+	  <!-- NuGet Metadata -->
+	  <PackageId>DynoMapper</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Sourav Biswas</Authors>
+	  <Company>Self</Company>
+	  <Description>Zero-boilerplate dynamic runtime DTO mapper for .NET 8. No model classes needed.</Description>
+	  <PackageTags>dynamic;mapper;dto;runtime;sqlhelper;efcore;postgresql;mysql;sqlserver</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/srvbiswas07/DynoMapper</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,5 +29,10 @@
     <PackageReference Include="MySqlConnector" Version="2.5.0" />
     <PackageReference Include="Npgsql" Version="8.0.8" />
   </ItemGroup>
+
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 </Project>
