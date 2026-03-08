@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynoMapper", "DynoMapper\DynoMapper.csproj", "{9B5BABB0-A886-492D-865A-30E02E4C1906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynoMapper.Api", "DynoMapper.Api\DynoMapper.Api.csproj", "{C0E6BCF4-E505-4EA2-9C0E-D974F1DD6A7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B5BABB0-A886-492D-865A-30E02E4C1906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5BABB0-A886-492D-865A-30E02E4C1906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5BABB0-A886-492D-865A-30E02E4C1906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5BABB0-A886-492D-865A-30E02E4C1906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E6BCF4-E505-4EA2-9C0E-D974F1DD6A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E6BCF4-E505-4EA2-9C0E-D974F1DD6A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E6BCF4-E505-4EA2-9C0E-D974F1DD6A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E6BCF4-E505-4EA2-9C0E-D974F1DD6A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CD7319D-169D-4D3D-B4D5-4A2DF3521ADD}
+	EndGlobalSection
+EndGlobal
